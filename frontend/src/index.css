@@ -1,0 +1,27 @@
+:root {
+    --main-content-offset: 7.5%;
+    --masthead-height: 200px;
+    --section-titles-height: 60px;
+    --masthead-border-height: 5px;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+     background: transparent;
+     width: 12px;
+     height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+     background-color: skyblue;
+     border-radius: 8px;
+     max-height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: dimgray;
+}
