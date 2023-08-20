@@ -1,13 +1,17 @@
 :root {
     --main-content-offset: 7.5%;
+    --topbar-offset: 25.5%;
     --masthead-height: 200px;
     --section-titles-height: 60px;
     --masthead-border-height: 5px;
+    --about-background-color: #ade2f0;
+    --background-color: #b3c3e8;
     font-size: 20px;
 }
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 ::-webkit-scrollbar {

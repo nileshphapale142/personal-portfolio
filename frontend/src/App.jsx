@@ -1,22 +1,34 @@
 import './App.scss'
 
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 
 function About() {
     return (
         <pf-section-content>
             <div id={'section-container'} className={'pf-section-content'}>
-                <div id={'section-content'} className={'pf-section-content'}>
-                    <div id={'about-me'} className={'pf-section-content'}></div>
-                    <span>
-                            In the heart of the bustling city, where the rhythms of life merge with the symphony of urban chaos, I find solace and inspiration. Each morning, as the sun's golden rays pierce through the skyscrapers, I embark on a journey through the labyrinthine streets, a seeker of stories hidden in the mundane. With each step, the city reveals its secrets – the aroma of freshly brewed coffee wafting from a corner café, the laughter of children echoing in a neighborhood park, and the myriad of languages spoken by strangers who share this intricate tapestry of existence.
-
-As I traverse this vibrant mosaic, my senses become attuned to the smallest details – the graffiti adorning alleyway walls, the delicate dance of raindrops on windowpanes, and the cacophony of traffic that somehow blends into a symphonic chaos. Every building seems to whisper tales of the past, bearing witness to countless lives that have passed through their doors. I capture these fleeting moments with my camera, freezing time in a single frame, preserving emotions, and weaving together a visual narrative that transcends language.
-
-Yet, it's not just the city's external beauty that captivates me; it's the human stories that unfold within its embrace. The elderly couple sitting on a park bench, their intertwined hands speaking volumes of a lifetime shared. The street vendor with a smile that defies the challenges life has thrown at him, reminding me of the resilience that resides within us all. These encounters remind me that amid the chaos, there's an underlying harmony – a reminder that we're all interconnected threads in the grand tapestry of humanity.
-
-As the day gives way to night, the city transforms into a canvas of shimmering lights, its energy shifting but never dimming. I find myself perched on a rooftop, gazing at the constellation of stars above, contemplating the infinitesimal yet profound role I play in this vast universe. This city, with its chaos and beauty, has become my muse, igniting my creativity and driving me to tell its stories through my lens. In every photograph, I strive to capture the essence of this metropolis – the palpable heartbeat that resonates through its streets, the dreams that take flight among its skyscrapers, and the whispered hopes that echo within its hidden corners. And so, I continue my journey, a humble explorer of the city's soul, driven by an insatiable curiosity to unearth its countless untold tales.
+                <div id={'section-content'} className={'pf-section-content about-section'}>
+                    <div id={'about-me'} className={'pf-section-content'}>
+                        <h2>{'\uD83D\uDC4B'} Hey there! I'm Nilesh Phapale</h2>
+                        <span>
+                            I'm an aspiring web developer from Pune, Maharashtra. Currently, I'm pursuing a Bachelor's degree in
+Computer Science and Engineering at IIIT Vadodara-International Campus, Diu.
+                        </span>
+                            <span>
+My fascination with web development began during my early years at IIITV-ICD. With each project and coding challenge,
+I've honed my skills in HTML, CSS, Javascript, and React.
+In collaboration with fellow students, I've had the pleasure of working on innovative projects that
+fuse design aesthetics with seamless functionality.
                             </span>
+                            <span>
+While my passion lies in transforming design concepts into responsive websites, my hobby of stargazing
+has taught me patience and the beauty of seeking the unseen.
+                            </span>
+                            <span>
+                                Feel free to explore my portfolio, where I've woven the threads of design and curiosity into a visual
+tapestry. If you're excited about collaboration or just want to chat about design, astronomy, or
+anything under the stars, drop me a line.
+                            </span>
+                    </div>
                 </div>
             </div>
         </pf-section-content>
@@ -24,6 +36,7 @@ As the day gives way to night, the city transforms into a canvas of shimmering l
 }
 
 function Skills() {
+
     return (
         <pf-section-content>
             <div id={'section-container'} className={'pf-section-content skills-section'}>
@@ -32,7 +45,7 @@ function Skills() {
                         <h1>Languages</h1>
                         <skills-row>
                             <skill>
-                                <div>
+                                <div >
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100px"
                                          height="100px" fill-rule="evenodd" clip-rule="evenodd">
                                         <
@@ -225,7 +238,6 @@ function Skills() {
     )
 }
 
-
 function Projects() {
     return (
         <pf-section-content>
@@ -238,19 +250,27 @@ function Projects() {
                                     <h2>Institute-Data-Management-System</h2>
                                 </div>
                                 <div>
-                                    <h3>Role: Frontend Designer, Database Designer, Server-side routing</h3>
+                                    <p>
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                    </p>
+                                </div>
+                                <p></p>
+                                <div>
+                                    <p>
+                                        > Website Design
+                                    </p>
+                                    <p>
+                                        > Database Design
+                                    </p>
+                                    <p>
+                                        > Server-side routing
+                                    </p>
                                 </div>
                                 <div>
-                                    <h3>Team Members : 4</h3>
-                                </div>
-                                <div>
-                                    <p>Made to manage the data of an institute</p>
-                                </div>
-                                <div>
-                                    <h3>Tech stack : Html, CSS, Ejs, Node.js(Express.js), MySQL</h3>
-                                </div>
-                                <div>
-                                    <a href={'https://github.com/nileshphapale142'}>Github link</a>
+                                    <button>
+                                        <span>View More</span>
+                                    </button>
                                 </div>
                             </project>
                             <project>
@@ -258,19 +278,27 @@ function Projects() {
                                     <h2>Institute-Data-Management-System</h2>
                                 </div>
                                 <div>
-                                    <h3>Role: Frontend Designer, Database Designer, Server-side routing</h3>
+                                    <p>
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                    </p>
+                                </div>
+                                <p></p>
+                                <div>
+                                    <p>
+                                        > Website Design
+                                    </p>
+                                    <p>
+                                        > Database Design
+                                    </p>
+                                    <p>
+                                        > Server-side routing
+                                    </p>
                                 </div>
                                 <div>
-                                    <h3>Team Members : 4</h3>
-                                </div>
-                                <div>
-                                    <p>Made to manage the data of an institute</p>
-                                </div>
-                                <div>
-                                    <h3>Tech stack : Html, CSS, Ejs, Node.js(Express.js), MySQL</h3>
-                                </div>
-                                <div>
-                                    <a href={'https://github.com/nileshphapale142'}>Github link</a>
+                                    <button>
+                                        <span>View More</span>
+                                    </button>
                                 </div>
                             </project>
                         </project-row>
@@ -280,19 +308,27 @@ function Projects() {
                                     <h2>Institute-Data-Management-System</h2>
                                 </div>
                                 <div>
-                                    <h3>Role: Frontend Designer, Database Designer, Server-side routing</h3>
+                                    <p>
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                    </p>
+                                </div>
+                                <p></p>
+                                <div>
+                                    <p>
+                                        > Website Design
+                                    </p>
+                                    <p>
+                                        > Database Design
+                                    </p>
+                                    <p>
+                                        > Server-side routing
+                                    </p>
                                 </div>
                                 <div>
-                                    <h3>Team Members : 4</h3>
-                                </div>
-                                <div>
-                                    <p>Made to manage the data of an institute</p>
-                                </div>
-                                <div>
-                                    <h3>Tech stack : Html, CSS, Ejs, Node.js(Express.js), MySQL</h3>
-                                </div>
-                                <div>
-                                    <a href={'https://github.com/nileshphapale142'}>Github link</a>
+                                    <button>
+                                        <span>View More</span>
+                                    </button>
                                 </div>
                             </project>
                             <project>
@@ -300,19 +336,27 @@ function Projects() {
                                     <h2>Institute-Data-Management-System</h2>
                                 </div>
                                 <div>
-                                    <h3>Role: Frontend Designer, Database Designer, Server-side routing</h3>
+                                    <p>
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                        Made to manage the data of an institute Made to manage the data of an institute
+                                    </p>
+                                </div>
+                                <p></p>
+                                <div>
+                                    <p>
+                                        > Website Design
+                                    </p>
+                                    <p>
+                                        > Database Design
+                                    </p>
+                                    <p>
+                                        > Server-side routing
+                                    </p>
                                 </div>
                                 <div>
-                                    <h3>Team Members : 4</h3>
-                                </div>
-                                <div>
-                                    <p>Made to manage the data of an institute</p>
-                                </div>
-                                <div>
-                                    <h3>Tech stack : Html, CSS, Ejs, Node.js(Express.js), MySQL</h3>
-                                </div>
-                                <div>
-                                    <a href={'https://github.com/nileshphapale142'}>Github link</a>
+                                    <button>
+                                        <span>View More</span>
+                                    </button>
                                 </div>
                             </project>
                         </project-row>
@@ -341,7 +385,7 @@ function Contact() {
             <div id={'section-container'} className={'pf-section-content'}>
                 <div id={'section-content'} className={'pf-section-content'}>
                     <contact-section>
-                        <h2>Hey, fill out the following information to contact me</h2>
+                        <h2>Hey, fill out the following information to contact me.</h2>
                         <div>
                             <input placeholder={'First Name'}/>
                         </div>
@@ -360,6 +404,21 @@ function Contact() {
 function App() {
 
     const [currentSec, setCurrentSec] = useState('Home')
+    const [isTitlesOnTop, setTitlesOnTop] = useState(false)
+
+    const hasHeadersHittedTop = () => {
+        setTitlesOnTop(
+            document.getElementById('id').getBoundingClientRect().top <= 0 &&
+            document.getElementById('section-container').getBoundingClientRect().top <= 60
+        )
+        console.log(document.getElementById('id').getBoundingClientRect().top)
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', hasHeadersHittedTop)
+
+        return () => window.removeEventListener('scroll', hasHeadersHittedTop)
+    }, [isTitlesOnTop])
 
     const changeCurrentSec = (secName) => {
         setCurrentSec(secName)
@@ -397,46 +456,49 @@ function App() {
                                 </div>
                             </div>
                             <div id={'profile-message'} className={'pf-masthead'}>
-                                <div id={'profile-message-inner'}>
+                                <div id={'profile-message-inner'} className={'pf-masthead'}>
                                     <span>
-                                        Wallaha Habibi
+                                        Nilesh Phapale
+                                    </span>
+                                    <span>
+                                        Something to write
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </pf-masthead>
                 </div>
-                <pf-section-headers>
+                <pf-section-headers id={'id'} style={isTitlesOnTop ? {position: 'fixed', top: 0} : {position: 'absolute'}}>
                     <div id={'section-titles-container'} className={'pf-section-headers'}>
-                        <div className={'pf-section-headers section-title'}>
+                        <div className={'pf-section-headers section-title' + (currentSec === 'About' ? ' selected' : '')}>
                             <a onClick={() => setCurrentSec('About')}>
                                 <span>
                                     About Me
                                 </span>
                             </a>
                         </div>
-                        <div className={'pf-section-headers section-title'}>
+                        <div className={'pf-section-headers section-title'  + (currentSec === 'Skills' ? ' selected' : '')}>
                             <a onClick={() => setCurrentSec('Skills')}>
                                 <span>
                                     Skills
                                 </span>
                             </a>
                         </div>
-                        <div className={'pf-section-headers section-title'}>
+                        <div className={'pf-section-headers section-title'  + (currentSec === 'Projects' ? ' selected' : '')}>
                             <a onClick={() => setCurrentSec('Projects')}>
                                 <span>
                                     Projects
                                 </span>
                             </a>
                         </div>
-                        <div className={'pf-section-headers section-title'}>
+                        <div className={'pf-section-headers section-title' + (currentSec === 'Articles' ? ' selected' : '')}>
                             <a onClick={() => setCurrentSec('Articles')}>
                                 <span>
                                     Articles
                                 </span>
                             </a>
                         </div>
-                        <div className={'pf-section-headers section-title'}>
+                        <div className={'pf-section-headers section-title' + (currentSec === 'Contact' ? ' selected' : '')}>
                             <a onClick={() => setCurrentSec('Contact')}>
                                 <span>
                                     Contact Me
